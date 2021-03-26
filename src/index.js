@@ -6,8 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 import { HashRouter, Route } from 'react-router-dom';
 
-import App from './components/App';
-
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(<HashRouter>
