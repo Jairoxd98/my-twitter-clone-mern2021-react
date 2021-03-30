@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
+import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
 
 import { HashRouter, Route } from 'react-router-dom';
@@ -11,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(<HashRouter>
   <div>
     <Route exact path="/" component={App} />
-    {/* <!<Route path="/home" component={Home} /> */}
+    <Route path="/home" component={Home} />
   </div>
 </HashRouter >, document.getElementById('root'));
 
